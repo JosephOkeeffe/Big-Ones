@@ -119,15 +119,57 @@ div > .tableSix
 }
 .paragraphThree
 {
-    background-color: #a87253;
+    background-color: #bba396;
     border:dashed  2px;
     padding-left: 10px;
 }
  .one
 {
-    background-color: #867e61;
+    background-color: rgba(153,50,204, 0.4);
     width: 300px;
     border-style: groove;
     border-color: #4F4846;
 } 
-
+.two
+{
+    background-color: rgba(99,74,65, 0.4);
+    width: 300px;
+    border-style: groove;
+    border-color: #4F4846;
+} 
+.three
+{
+    background-color: rgba(3, 17, 7, 0.7);
+    width: 300px;
+    border-style: groove;
+    border-color: #4F4846;
+} 
+.four
+{
+    
+  background-color: rgba(170, 148, 66, 0.7);
+    width: 300px;
+    border-style: groove;
+    border-color: #4F4846;
+} 
+.five
+{
+    background-color:rgba(88, 151, 209, 0.7);
+    width: 300px;
+    border-style: groove;
+    border-color: #4F4846;
+} 
+.six
+{
+    background-color: rgba(192, 60, 3, 0.7);
+    width: 300px;
+    border-style: groove;
+    border-color: #4F4846;
+} 
+.live
+{
+    background-color: rgba(193, 172, 204, 0.486);
+    width: 300px;
+    border-style: groove;
+    border-color: #4F4846;
+} 
