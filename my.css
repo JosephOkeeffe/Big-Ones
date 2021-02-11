@@ -5,8 +5,11 @@ body
     background: #DDAF94;
     font-family: sans-serif;
     padding: 5px;
+    position:relative; left:155px;
     
 }
+
+
 /* IMAGES */
 img 
 {
@@ -16,37 +19,45 @@ img
     
 }
 /* NAVIGATION BAR */
-ul {
+
+
+
+.navigation {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+
+.navigation a {
+   
+   padding: 8px 16px;
+    text-decoration: none;
+    
+    color: #ffffff;
+    display: block;
+    
+    
+}
+
+.navigation a:hover {
+    background-color: rgba(54, 52, 52, 0.658);
+    text-align:center
+}
+.active {
+    background-color: rgb(38, 97, 80);
+    color: white;
+  }
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  li a:hover 
-  {
-    background-color: #111;
-  }
-  .active
-  {
-    background-color:  #266150;
-  }
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
   }
   
 /* FIRST PAGE */
@@ -55,6 +66,8 @@ ul {
     border:dashed  2px;
     background-color: #E8CEBF;
     padding-left: 10px
+    
+   
     
 }
 /* SECOND PAGE */
@@ -67,48 +80,52 @@ table, th, td
 }
 div > .tableOne
  { 
-    width: 48%;
+    width: 44%;
     float:left;
     margin:5px;
     background-color: rgba(153,50,204, 0.4);
+     
 } 
 div > .tableTwo 
 { 
-    width: 48%;
+    width: 44%;
     float:right;
     margin:5px;
-    background-color: rgba(99,74,65, 0.4);
-    
-      
+    background-color: rgba(99,74,65, 0.4);  
+    position:relative; right:155px;
 } 
 div > .tableThree 
 { 
-    width: 48%;
+    width: 44%;
     float:left;
     margin:5px;
     background-color: rgba(3, 17, 7, 0.7);
+    
 } 
 div > .tableFour
  { 
    
-    width: 48%;
+    width: 44%;
     float:right;
     margin:5px;
     background-color: rgba(170, 148, 66, 0.7);
+    position:relative; right:155px;
+    
 } 
 div > .tableFive
 { 
-    width: 48%;
+    width: 44%;
     float:left;
     margin:5px;
     background-color: rgba(88, 151, 209, 0.7);
 } 
 div > .tableSix
  { 
-    width: 48%;
+    width: 44%;
     float:right;
     margin:5px;
-    background-color: rgba(192, 60, 3, 0.7);
+    background-color: rgba(192, 60, 3, 0.7); 
+    position:relative; right:155px;
 } 
 /* BODY */
 .paragraphTwo
@@ -122,6 +139,7 @@ div > .tableSix
     background-color: #bba396;
     border:dashed  2px;
     padding-left: 10px;
+ 
 }
  .one
 {
@@ -129,6 +147,7 @@ div > .tableSix
     width: 300px;
     border-style: groove;
     border-color: #4F4846;
+ 
 } 
 .two
 {
